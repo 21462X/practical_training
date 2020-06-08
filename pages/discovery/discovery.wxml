@@ -1,0 +1,22 @@
+<!--pages/discovery/discovery.wxml-->
+<view class="discovery-content">
+	<view class="top-discovery">
+		<view class="navbar">
+					 <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+			 </view>
+					 <!--圈子-->
+					 <view hidden="{{currentTab!==0}}">
+					 
+					 </view>
+					 <!--频道-->
+					 <view hidden="{{currentTab!==1}}">
+					 
+					 </view>
+					 <!--分区-->
+					 <view hidden="{{currentTab!==2}}">
+					 
+					 </view>
+	 </view>
+</view>
+
+ 

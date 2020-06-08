@@ -1,0 +1,12 @@
+<!--pages/vip/vip.wxml-->
+<view class="vip-content">
+  <view class="top-vip">
+    <image class="vip-touxiang" src="/assert/images/touxiang.jpg"></image>
+    <view>
+      <text class="vip-name">某某某</text>
+      <image class="vip-icon" src=""></image>
+    </view>
+    <text class="">加入盐选会员享各种精彩课程</text>
+  </view>
+
+</view>

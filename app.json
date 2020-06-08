@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/vip/vip",
+    "pages/index/index",
+    "pages/discovery/discovery",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0068c4",
+    "navigationBarTitleText": "知乎",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assert/images/index.png",
+        "selectedIconPath": "/assert/images/index_focus.png"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "我的",
+        "iconPath": "/assert/images/vip.png",
+        "selectedIconPath": "/assert/images/vip_focus.png"
+      },
+      {
+        "pagePath": "pages/discovery/discovery",
+        "text": "发现",
+        "iconPath": "/assert/images/discovery.png",
+        "selectedIconPath": "/assert/images/discovery_focus.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/assert/images/message.png",
+        "selectedIconPath": "/assert/images/message_focus.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/assert/images/my.png",
+        "selectedIconPath": "/assert/images/my_focus.png"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

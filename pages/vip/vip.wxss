@@ -1,0 +1,6 @@
+/* pages/vip/vip.wxss */
+.vip-touxiang {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
