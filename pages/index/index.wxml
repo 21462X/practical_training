@@ -2,32 +2,31 @@
 <view class="container">
 	<view class="top-container">
 		<view class="top-container-content-a">
-			<image class="index-icon" src="/assert/images/live.png" style="margin-left:20rpx">直播</image>
+			<image class="index-icon-1" src="/assert/images/live.png" style="margin-left:20rpx">直播</image>
 			<view class="inner-block">
 				<image class="index-icon" src="/assert/images/search.png"></image>
 				<input class="index-input" placeholder="高考倒计时一个月" />
 			</view>
-			<image class="index-icon" src="/assert/images/new.png" style="margin-right:20rpx"></image>
+			<image class="index-icon-1" src="/assert/images/new.png" style="margin-right:20rpx"></image>
 		</view>
 		<view class="top-container-content-b">
-			<scroll-view>
-				<view class="navbar">
-					<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"
-						wx:key="unique" bindtap="navbarTap">{{item}}</text>
-				</view>
-				<!--关注-->
-				<view hidden="{{currentTab!==0}}">
-			
-				</view>
-				<!--推荐-->
-				<view hidden="{{currentTab!==1}}">
-					
-				</view>
-				<!--热榜-->
-				<view hidden="{{currentTab!==2}}">
-					
-				</view>
-			</scroll-view>
+			<view class="navbar">
+				<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"
+					wx:key="unique" bindtap="navbarTap">{{item}}</text>
+			</view>
+			<!--关注-->
+			<view hidden="{{currentTab!==0}}">
+
+			</view>
+			<!--推荐-->
+			<view hidden="{{currentTab!==1}}">
+
+			</view>
+			<!--热榜-->
+			<view hidden="{{currentTab!==2}}">
+
+			</view>
+
 		</view>
 	</view>
 </view>

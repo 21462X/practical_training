@@ -1,4 +1,6 @@
 /**index.wxss**/
+@import "/assert/styles/style.wxss";
+
 .top-container {
   width: 100%;
   box-shadow: 0rpx 1rpx 50rpx 1rpx rgb(175, 172, 172);
@@ -34,40 +36,6 @@
 .index-input {
   flex: 1;
   font-size: 30rpx;
-}
-
-.index-icon {
-  width: 50rpx;
-  height: 50rpx;
-}
-
-.navbar {
-  flex: none;
-  display: flex;
-  background: #fff;
-}
-
-.navbar .item {
-  position: relative;
-  flex: auto;
-  text-align: center;
-  line-height: 80rpx;
-  color: grey;
-}
-
-.navbar .item.active {
-  color:black;
-}
-
-.navbar .item.active:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 80rpx;
-  right: 80rpx;
-  height: 4rpx;
-  background: black;
 }
 
 .guanzhu-touxiang {

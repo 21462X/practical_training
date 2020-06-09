@@ -1,6 +1,78 @@
 /* pages/vip/vip.wxss */
+@import "/assert/styles/style.wxss";
+
+.top-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-vip {
+  display: flex;
+  padding: 2px;
+  margin: 5px 5px 5px;
+}
+
 .vip-touxiang {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 }
+
+.title-box {
+ margin-top: 20rpx;
+}
+
+.vip-icon {
+  width: 100rpx;
+  height: 25rpx;
+}
+
+.vip-index-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 40rpx 40rpx;
+}
+
+.nav {
+  height: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  font-size: 16px;
+  white-space: nowrap;
+  position: fixed;
+  left: 0;
+  z-index: 99;
+
+}
+.nav-item {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  color: grey;
+}
+.nav-item.active{
+  color:rgb(199,153,93);
+}
+/* 
+.nav .nav-item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 80rpx;
+  right: 80rpx;
+  height: 40rpx;
+  background:rgb(199,153,93);
+} */
+.tab-box{
+  padding-top: 80rpx;
+  height: 100%;
+  box-sizing: border-box;
+}
+.tab-content{
+  overflow-y: scroll;
+}
+
+

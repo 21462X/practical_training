@@ -5,9 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    navData: ['会员推荐', '读书会', '杂志', '盐选专栏', 'Live讲座'],
+    currentTab: 0,
+    navScrollLeft: 0
   },
 
+  switchNav(event){
+    var cur = event.currentTarget.dataset.current; 
+    //每个tab选项宽度占1/5
+    var singleNavWidth = this.data.windowWidth / 5;
+    //tab选项居中                            
+    this.setData({
+        navScrollLeft: (cur - 2) * singleNavWidth
+    })      
+    if (this.data.currentTab == cur) {
+        return false;
+    } else {
+        this.setData({
+            currentTab: cur
+        })
+    }
+},
+switchTab(event){
+    var cur = event.detail.current;
+    var singleNavWidth = this.data.windowWidth / 5;
+    this.setData({
+        currentTab: cur,
+        navScrollLeft: (cur - 2) * singleNavWidth
+    });
+},
   /**
    * 生命周期函数--监听页面加载
    */
