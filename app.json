@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/vip/vip",
+   
     "pages/index/index",
+     "pages/vip/vip",
     "pages/discovery/discovery",
     "pages/message/message",
     "pages/my/my"
@@ -16,7 +17,7 @@
   "tabBar": {
     "color": "#626567",
     "selectedColor": "#2A8CE5",
-    "backgroundColor": "#FBFBFB",
+    "backgroundColor": "#FEFEFE",
     "borderStyle": "white",
     "list": [
       {

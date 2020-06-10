@@ -1,3 +1,7 @@
+Page {
+  background-color: rgb(246,246,246);
+}
+
 .index-icon-1 {
   width: 50rpx;
   height: 50rpx;
@@ -12,7 +16,6 @@
 .navbar {
   flex: none;
   display: flex;
-  background: #fff;
 }
 
 .navbar .item {

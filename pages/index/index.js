@@ -7,10 +7,51 @@ Page({
   data: {
     navbar: ['关注', '推荐', '热榜'],
     currentTab: 0,
+    cardList: [
+      {
+        touxiang:'/assert/images/ribao.jpg',
+        name1: '知乎日报',
+        description:'17分钟前·赞同了回答',
+        name2:'《上错花轿嫁对郎》是部怎样的电视剧？',
+        name3:'草莓霸王:',
+        content:'abchdjiasfbilafbibj;dbvjdbcjdklbjdbcjlbajlbfcabhlbvhblvdlhbvdhlbfalfhalfnaovnbcojabneoubf...',
+        content1: '/assert/images/ribao.jpg'
+      }, {
+        name: 'bb',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      }, {
+        name: 'aa',
+        content: 'bb'
+      },
+    ]
   },
   navbarTap: function (e) {
     this.setData({
       currentTab: e.currentTarget.dataset.idx
+    })
+  },
+  toDetailPage:function(e){
+    wx.navigateTo({
+      url: '../index_detail/index_detail',
+      complete: (res) => {},
+      events: events,
+      fail: (res) => {},
+      success: (result) => {},
     })
   },
 

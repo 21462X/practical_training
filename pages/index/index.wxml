@@ -9,24 +9,80 @@
 			</view>
 			<image class="index-icon-1" src="/assert/images/new.png" style="margin-right:20rpx"></image>
 		</view>
-		<view class="top-container-content-b">
-			<view class="navbar">
-				<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}"
-					wx:key="unique" bindtap="navbarTap">{{item}}</text>
-			</view>
-			<!--关注-->
-			<view hidden="{{currentTab!==0}}">
-
-			</view>
-			<!--推荐-->
-			<view hidden="{{currentTab!==1}}">
-
-			</view>
-			<!--热榜-->
-			<view hidden="{{currentTab!==2}}">
-
-			</view>
-
+		<view class="navbar">
+			<text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+				bindtap="navbarTap">{{item}}</text>
 		</view>
 	</view>
+	<!--关注-->
+	<view hidden="{{currentTab!==0}}" style="width: 100%;">
+		<view class="main">
+			<scroll-view class='main-scroll' scroll-y style="height: 100%">
+				<view class="guanzhu-top-content">
+					<text class="guanzhu-top-content-text">最常访问</text>
+					<view class="guanzhu-box">
+						<view class="guanzhu-inner-box">
+							<image class="guanzhu-top-touxiang" src="/assert/images/dianying.jpg">知乎电影</image>
+							<text class="touxiang-name">知乎电影</text>
+						</view>
+						<view class="guanzhu-inner-box">
+							<image class="guanzhu-top-touxiang" src="/assert/images/ribao.jpg">知乎电影</image>
+							<text class="touxiang-name">知乎日报</text>
+						</view>
+						<view class="guanzhu-inner-box">
+							<image class="guanzhu-top-touxiang" src="/assert/images/juzong.jpg">知乎电影</image>
+							<text class="touxiang-name">知乎剧综</text>
+						</view>
+						<view class="guanzhu-inner-box">
+							<image class="guanzhu-top-touxiang" src="/assert/images/more.png">关注更多</image>
+							<text class="touxiang-name">关注更多</text>
+						</view>
+					</view>
+				</view>
+				<view class='main-list'>
+					<view class='card' wx:for="{{cardList}}">
+						<view class='card-box'>
+							<view class="card-box-content" bindtap="toDetailPage">
+								<view class="top-card-box">
+									<image class="guanzhu-list-touxiang" src="{{item.touxiang}}"></image>
+									<view class="car-box-title-right">
+										<text class="name1">{{item.name1}}</text>
+										<text class="description">{{item.description}}</text>
+									</view>
+								</view>
+								<view class="name2">{{item.name2}}</view>
+								<view class="content-box">
+									<view>
+										<text class="name3">{{item.name3}}</text>
+										<text class="content">{{item.content}}</text>
+									</view>
+									<image class='content1' src="{{item.content1}}"></image>
+								</view>
+								<view class="card-box-bottom">
+									<view class="card-box-bottom-left">
+										<image src="/assert/images/zan.png" style="width: 40rpx;height: 40rpx;"></image>
+									<image src="/assert/images/talk.png" style="width: 40rpx;height: 40rpx;"></image>
+									</view>								
+									<image src="/assert/images/options.png" style="width: 40rpx;height: 40rpx;"></image>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</scroll-view>
+		</view>
+	</view>
+
+	<!--推荐-->
+	<view hidden="{{currentTab!==1}}">
+
+	</view>
+	<!--热榜-->
+	<view hidden="{{currentTab!==2}}">
+
+	</view>
+
+
+
+
 </view>
