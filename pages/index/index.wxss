@@ -78,18 +78,16 @@
 
 .main-scroll {
   margin-top: 230rpx;
-}
-
-.card {
-  width: 100%;
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
-}
-
+ }
+ 
 .card-box {
   width: 100%;
   height: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
   background: rgb(254, 254, 254);
+  display: flex;
+  flex-direction: column;
 }
 
 .card-box-content {
@@ -102,12 +100,9 @@
   border-radius: 50%;
 }
 
-.description {
-  font-size: 20rpx;
-  color: grey;
-}
-
 .top-card-box {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
 }
@@ -118,8 +113,18 @@
   margin-left: 10rpx;
 }
 
+.description {
+  font-size: 20rpx;
+  color: grey;
+}
+
 .name2 {
   font-weight: 700;
+}
+
+.answer-body {
+  display: flex;
+  flex-direction: row;
 }
 
 .name3 {
@@ -128,28 +133,24 @@
   font-weight: 700;
 }
 
-.content-box {
-  display: flex;
-  flex-direction: row;
-}
-
 .content {
   color:rgb(74,74,74);
-  word-wrap: break-word;
-  word-break: break-all;
 }
+
 .content1 {
-  width: 500rpx;
+  width: 900rpx;
   height: 150rpx;
-  margin: 10rpx 10rpx 10rpx
+  margin: 20rpx 20rpx 20rpx
 }
+
 .card-box-bottom {
-  margin:0 20rpx 0;
+  margin:20rpx 20rpx 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .card-box-bottom-left {
   display: flex;
- 
-}
+ flex-direction: row;
+} 
