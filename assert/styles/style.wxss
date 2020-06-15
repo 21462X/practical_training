@@ -1,6 +1,3 @@
-Page {
-  background-color: rgb(246,246,246);
-}
 
 .index-icon-1 {
   width: 50rpx;

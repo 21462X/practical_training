@@ -1,33 +1,64 @@
 <!--pages/vip/vip.wxml-->
 <view class="vip-content">
-  <view class="top-title">
-    <view class="top-vip">
-      <image class="vip-touxiang" src="/assert/images/touxiang.jpg"></image>
-      <view class="title-box">
-        <view class="vip-title">
-          <text class="vip-name">某某某</text>
-          <image class="vip-icon" src="/assert/images/vip_icon.jpg"></image>
+  <view class="top-content">
+    <view class="top-title">
+      <view class="top-vip">
+        <image class="vip-touxiang" src="/assert/images/touxiang.jpg"></image>
+        <view class="title-box">
+          <view class="vip-title">
+            <text class="vip-name">某某某</text>
+            <image class="vip-icon" src="/assert/images/vip_icon.jpg"></image>
+          </view>
+          <text class="discrption">加入盐选会员享各种精彩课程</text>
         </view>
-        <text class="discrption">加入盐选会员享各种精彩课程</text>
       </view>
+      <image class="vip-index-icon" src="/assert/images/search.png"></image>
     </view>
-    <image class="vip-index-icon" src="/assert/images/search.png"></image>
+    <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+      <view class="tab-item {{currentTab==0?'active':''}}"  data-current="0" bindtap="swichNav">会员推荐</view>
+      <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">读书会</view>
+      <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">杂志</view>
+      <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">盐选专栏</view>
+      <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">Live讲座</view>
+  </scroll-view>
   </view>
 
-  <view class="container">
-    <!-- tab导航栏 -->
-    <!-- scroll-left属性可以控制滚动条位置 -->
-    <!-- scroll-with-animation滚动添加动画过渡 -->
-    <scroll-view scroll-x="true" class="nav" scroll-left="{{navScrollLeft}}" scroll-with-animation="{{true}}">
-        <block wx:for="{{navData}}" wx:for-index="idx" wx:for-item="navItem" wx:key="idx">
-            <view class="nav-item {{currentTab == idx ?'active':''}}"  data-current="{{idx}}" bindtap="switchNav">{{navItem}}</view>
-        </block>        
-    </scroll-view>
-    <!-- 页面内容 -->
-    <swiper class="tab-box" current="{{currentTab}}" duration="300" bindchange="switchTab">        
-        <swiper-item wx:for="{{[0,1,2,3,4,5]}}" wx:for-item="tabItem" wx:for-index="idx" wx:key="idx" class="tab-content">
-            {{tabItem}}
+  <view class="center-content">
+    <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab"style="height:{{winHeight}}rpx">
+        <swiper-item wx:for="{{[0,1,2,3,4]}}">
+            <scroll-view scroll-y="true" class="scoll-h" >
+                <block>
+                    <view class="item-ans">
+                       <!-- 每个item的样式 -->
+                       <view class="top-item">
+                        <image src="/assert/images/vip_top.jpg" style="width: 375px;height: 211px;"></image >
+                        <view class="inner-top-item">
+                          <view>
+                            <image src="/assert/images/daily_new.jpg" style="width: 60px;height: 60px;"></image>
+                          <text>每日上新</text>
+                          </view>
+                          <view>
+                             <image src="/assert/images/list.jpg" style="width: 60px;height: 60px;"></image>
+                          <text>榜单</text>
+                          </view>
+                         <view>
+                            <image src="/assert/images/novel.jpg" style="width: 60px;height: 60px;"></image>
+                          <text>小说</text>
+                         </view>
+                         <view>
+                            <image src="/assert/images/vip.jpg" style="width: 60px;height: 60px;"></image>
+                          <text>免费领会员</text>
+                         </view>
+                         <view>
+                            <image src="/assert/images/classify.jpg" style="width: 60px;height: 60px;"></image>
+                          <text>分类</text>
+                         </view>
+                        </view>
+                      </view>
+                    </view>
+                </block>
+            </scroll-view>
         </swiper-item>
     </swiper>
-</view>
+  </view>
 </view>

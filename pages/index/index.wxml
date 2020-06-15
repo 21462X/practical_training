@@ -17,7 +17,7 @@
 	<!--关注-->
 	<view hidden="{{currentTab!==0}}" style="width: 100%;">
 		<view class="main">
-			<scroll-view class='main-scroll' scroll-y style="height: 100%" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+			<scroll-view class='main-scroll' scroll-y bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
 				<view class="guanzhu-top-content">
 					<text class="guanzhu-top-content-text">最常访问</text>
 					<view class="guanzhu-box">

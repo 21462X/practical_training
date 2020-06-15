@@ -1,7 +1,8 @@
 {
   "pages": [ 
-    "pages/index/index",
     "pages/vip/vip",
+    "pages/index/index",
+   
     "pages/discovery/discovery",
     "pages/message/message",
     "pages/my/my",
@@ -29,7 +30,7 @@
       },
       {
         "pagePath": "pages/vip/vip",
-        "text": "我的",
+        "text": "会员",
         "iconPath": "/assert/images/vip.png",
         "selectedIconPath": "/assert/images/vip_focus.png"
       },
