@@ -1,5 +1,6 @@
 /**index.wxss**/
 @import "/assert/styles/style.wxss";
+/* @import"/assert/styles/zhihu_demo.wxss"; */
 
 .top-container {
   width: 100%;

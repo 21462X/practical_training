@@ -1,0 +1,107 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="top-content">
+    <image class="index-icon" src="/assert/images/scan.png" style="margin-left: 30rpx;"></image>
+    <view class="inner-block">
+      <image class="index-icon" src="/assert/images/search.png"></image>
+      <input class="index-input" placeholder="输入访问码直达" />
+    </view>
+    <image class="index-icon" src="/assert/images/add.png" style="margin-right: 30rpx;"></image>
+  </view>
+
+  <view class="center-content">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{movies}}" wx:for-index="index">
+        <swiper-item>
+          <image src="{{item.url}}" class="slide-image" mode="aspectFit|aspectFill|widthFix" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="d-swiper-bottom" hover-class="none" hover-stop-propagation="false">
+      <view class="d-swiper-bottom1">
+        <view class="d-center" bindtap="toClass">
+          <image class="icon" src="/assert/images/class.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false"
+            binderror="" bindload="">
+          </image>
+          <text>我的班级</text>
+        </view>
+        <view class="d-center" bindtap="toTesting">
+          <image class="icon" src="/assert/images/learning_tasks.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>学习任务</text>
+        </view>
+        <view class="d-center" bindtap="toSpeech">
+          <image class="icon" src="/assert/images/my_speech.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false"
+            binderror="" bindload="">
+          </image>
+          <text>我的发言</text>
+        </view>
+        <view class="d-center" bindtap="toStudyGroup">
+          <image class="icon" src="/assert/images/study_group.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>学习群</text>
+        </view>
+      </view>
+      <view class="d-swiper-bottom2">
+        <view class="d-center" bindtap="toRegisteredCourse">
+          <image class="icon" src="/assert/images/registered_courses.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>报名的课程</text>
+        </view>
+        <view class="d-center" bindtap="toStudyHistory">
+          <image class="icon" src="/assert/images/study_history.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>学习历史</text>
+        </view>
+        <view class="d-center" bindtap="toPersonalHomepage">
+          <image class="icon" src="/assert/images/personal_homepage.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>个人主页</text>
+        </view>
+        <view class="d-center" bindtap="toMyPrivilege">
+          <image class="icon" src="/assert/images/my_privilege.png" mode="aspectFit|aspectFill|widthFix"
+            lazy-load="false" binderror="" bindload="">
+          </image>
+          <text>我的特权</text>
+        </view>
+      </view>
+    </view>
+    <view class="card">
+      <text class="inner-card-bold-size">学习任务（1）</text>
+      <view>
+        <view class="inner-card">
+          <view class="inner-card-small-1">课程</view>
+          <text class="inner-card-bold-size">二级java备考</text>
+          <view class="inner-card-small-2">
+            <text class="inner-card-small-size-3">学习进度98%</text>
+            <text class="inner-card-small-4">立即学习</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom-content">
+    <view class="block-card">
+      <view class="card-top">
+        <text class="text">如何使用UMU</text>
+        <view class="inner-card-top">
+          <text class="inner-card-top-text">查看全部</text>
+          <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+
+      <view>
+        <image></image>
+        <text></text>
+        <text></text>
+      </view>
+    </view>
+
+  </view>
+</view>

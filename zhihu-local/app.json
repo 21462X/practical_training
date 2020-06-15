@@ -1,8 +1,8 @@
 {
   "pages": [ 
-    "pages/vip/vip",
-    "pages/index/index",
    
+    "pages/index/index",
+    "pages/vip/vip",
     "pages/discovery/discovery",
     "pages/message/message",
     "pages/my/my",

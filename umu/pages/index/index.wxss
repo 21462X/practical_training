@@ -1,0 +1,180 @@
+/* pages/index/index.wxss */
+
+.top-content {
+  width: 100%;
+  height: 100rpx;
+  box-shadow: 2px 2px 5px #888888;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: rgb(255,255,255);
+}
+
+.inner-block {
+  width: 70%;
+  height: 75rpx;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  background: rgb(241,241,241);
+  align-items: center;
+}
+
+.inner-block image {
+  height: 50rpx;
+  width: 50rpx;
+  align-self: center;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.index-input {
+  flex: 1;
+  font-size: 30rpx;
+}
+
+.index-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx ;
+}
+
+.swiper {
+  height: 350rpx;
+  width: 100%;
+}
+
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.d-swiper-bottom {
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  
+}
+
+.d-swiper-bottom1 {
+  width: 100%;
+  height: 170rpx;
+  display: flex;
+  flex-direction: row;
+}
+.d-swiper-bottom2 {
+  width: 100%;
+  height: 170rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 52%;
+  height: 55%;
+}
+
+.d-center {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+  height: 340rpx;
+  background-color: rgb(255,171,0);
+  margin-left: 40rpx;
+  margin-top: 35rpx;
+  border-radius: 3%;
+  position: relative;
+  padding: 35rpx 30rpx 20rpx;
+}
+
+.inner-card {
+  width: 85%;
+  height: 200rpx;
+  background-color: white;
+  position: absolute;
+  margin-top: 35rpx;
+  padding: 20rpx 25rpx;
+  border-radius: 3%;   
+  display: flex;
+  flex-direction: column;         
+}
+
+.inner-card-bold-size{
+  font-weight: bold;
+}
+
+.inner-card-small-1 {
+  width: 90rpx;
+  height: 50rpx;
+  font-size: 30rpx;
+  background-color: rgb(235,235,235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  margin-bottom: 20rpx;
+}
+
+.inner-card-small-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-card-small-size-3 {
+  font-weight: lighter;
+  font-size: 25rpx;
+  margin-top: 25rpx;
+}
+
+.inner-card-small-4 {
+  width: 150rpx;
+  height: 60rpx;
+  font-size: 25rpx;
+  color: white;
+  background-color: rgb(254,134,9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30rpx;
+}
+
+.bottom-content {
+  width: 85%;
+  margin-left: 40rpx;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.inner-card-top-text {
+  font-size: 25rpx;
+  color: grey;
+}
+
+.card-top-icon {
+  width: 15rpx;
+  height: 15rpx;
+  margin-left: 10rpx;
+}

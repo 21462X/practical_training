@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "umu",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#FFAB00",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [ 
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assert/images/home.png",
+        "selectedIconPath": "/assert/images/home_focus.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "/assert/images/course.png",
+        "selectedIconPath": "/assert/images/course_focus.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/assert/images/message.png",
+        "selectedIconPath": "/assert/images/message_focus.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/assert/images/profile.png",
+        "selectedIconPath": "/assert/images/profile_focus.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
