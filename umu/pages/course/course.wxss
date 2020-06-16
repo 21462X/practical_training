@@ -1,1 +1,65 @@
 /* pages/course/course.wxss */
+Page {
+  background-color: rgb(245, 245, 245);
+}
+
+.top-course-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  flex: none;
+  display: flex;
+  width: 50%;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  color: grey;
+}
+
+.navbar .item.active {
+  color: black;
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 20rpx;
+  right: 20rpx;
+  height: 4rpx;
+  background: black;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5rpx;
+  padding: 20rpx 20rpx 20rpx;
+}
+
+.my-charge image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creat-btn {
+  margin-top: 40rpx;
+  color: white;
+  background-color: rgb(33, 150, 243);
+}

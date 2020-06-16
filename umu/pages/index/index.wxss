@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
 }
 
 .inner-block {
@@ -20,7 +20,7 @@
   border-radius: 10rpx;
   margin-right: 20rpx;
   margin-left: 20rpx;
-  background: rgb(241,241,241);
+  background: rgb(241, 241, 241);
   align-items: center;
 }
 
@@ -41,7 +41,7 @@
 .index-icon {
   width: 50rpx;
   height: 50rpx;
-  margin-top: 10rpx ;
+  margin-top: 10rpx;
 }
 
 .swiper {
@@ -60,7 +60,7 @@
   display: flex;
   flex-direction: column;
   font-size: 32rpx;
-  
+
 }
 
 .d-swiper-bottom1 {
@@ -69,6 +69,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .d-swiper-bottom2 {
   width: 100%;
   height: 170rpx;
@@ -93,7 +94,7 @@
 .card {
   width: 80%;
   height: 340rpx;
-  background-color: rgb(255,171,0);
+  background-color: rgb(255, 171, 0);
   margin-left: 40rpx;
   margin-top: 35rpx;
   border-radius: 3%;
@@ -108,12 +109,12 @@
   position: absolute;
   margin-top: 35rpx;
   padding: 20rpx 25rpx;
-  border-radius: 3%;   
+  border-radius: 3%;
   display: flex;
-  flex-direction: column;         
+  flex-direction: column;
 }
 
-.inner-card-bold-size{
+.inner-card-bold-size {
   font-weight: bold;
 }
 
@@ -121,7 +122,7 @@
   width: 90rpx;
   height: 50rpx;
   font-size: 30rpx;
-  background-color: rgb(235,235,235);
+  background-color: rgb(235, 235, 235);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,7 +146,7 @@
   height: 60rpx;
   font-size: 25rpx;
   color: white;
-  background-color: rgb(254,134,9);
+  background-color: rgb(254, 134, 9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,6 +156,12 @@
 .bottom-content {
   width: 85%;
   margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-card {
+  margin-top: 100rpx;
 }
 
 .card-top {
@@ -177,4 +184,67 @@
   width: 15rpx;
   height: 15rpx;
   margin-left: 10rpx;
+}
+
+.card-main-content {
+  width: 300rpx;
+  height: 150rpx;
+
+}
+
+.card-main-content image {
+  width: 300rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+
+.remark {
+  font-size: 20rpx;
+  margin-top: 10rpx;
+  color: grey;
+}
+
+.crosswise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.crosswise_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 130rpx;
+}
+
+.line {
+  width: 100%;
+  height: 1rpx;
+  background-color: silver;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+
+.skill-box image {
+  width: 290rpx;
+  height: 130rpx;
+}
+
+.footer {
+  padding-top: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
 }

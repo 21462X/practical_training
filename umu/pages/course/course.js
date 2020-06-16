@@ -5,7 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+    navbar: ['我管理的', '我参与的'],
+    currentTab: 0,
 
+  },
+  
+  /**
+   * 点击导航栏
+   */
+  navbarTap: function (e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.idx
+    })
   },
 
   /**

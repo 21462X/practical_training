@@ -1,1 +1,4 @@
 /* pages/message/message.wxss */
+Page{
+  background-color: rgb(245,245,245);
+}

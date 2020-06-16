@@ -1,7 +1,9 @@
 <!--pages/index/index.wxml-->
 <view class="container">
   <view class="top-content">
-    <image class="index-icon" src="/assert/images/scan.png" style="margin-left: 30rpx;"></image>
+    <button>
+      <image class="index-icon" src="/assert/images/scan.png" style="margin-left: 30rpx;"></image>
+    </button>
     <view class="inner-block">
       <image class="index-icon" src="/assert/images/search.png"></image>
       <input class="index-input" placeholder="输入访问码直达" />
@@ -95,13 +97,253 @@
           <image class="card-top-icon" src="/assert/images/check_more.png"></image>
         </view>
       </view>
+      
+      <view class="crosswise ">
+        <view class="card-main-content">
+          <image src="/assert/images/micro_voice_lessons.jpg"></image>
+          <view class="title">如何使用UMU语音微课</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/exam.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
 
-      <view>
-        <image></image>
-        <text></text>
-        <text></text>
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/task.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/sign_in.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/video.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/document.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/questionnaire .jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/discussion.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+    </view>
+   
+    <view class="block-card">
+      <view class="card-top">
+        <text class="text">如何使用UMU</text>
+        <view class="inner-card-top">
+          <text class="inner-card-top-text">查看全部</text>
+          <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      <view class="card-main-content_1">
+        <view class="skill-box">
+           <image src="/assert/images/integration.jpg"></image>
+          <view class="context-box">
+            <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+          <view class="remark">2小节  12,405人参与</view>
+          </view>
+        </view>
+        <view class="skill-box">
+          <image src="/assert/images/question_bank.jpg"></image>
+         <view class="context-box">
+           <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+         <view class="remark">2小节  12,405人参与</view>
+         </view>
+       </view>
+       <view class="skill-box">
+        <image src="/assert/images/word_cloud.jpg"></image>
+       <view class="context-box">
+         <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+       <view class="remark">2小节  12,405人参与</view>
+       </view>
+     </view>
       </view>
     </view>
 
+    <view class="block-card">
+      <view class="card-top">
+        <text class="text">如何使用UMU</text>
+        <view class="inner-card-top">
+          <text class="inner-card-top-text">查看全部</text>
+          <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      
+      <view class="crosswise ">
+        <view class="card-main-content">
+          <image src="/assert/images/micro_voice_lessons.jpg"></image>
+          <view class="title">如何使用UMU语音微课</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/exam.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/task.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/sign_in.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/video.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/document.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/questionnaire .jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/discussion.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="block-card">
+      <view class="card-top">
+        <text class="text">如何使用UMU</text>
+        <view class="inner-card-top">
+          <text class="inner-card-top-text">查看全部</text>
+          <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      <view class="card-main-content_1">
+        <view class="skill-box">
+           <image src="/assert/images/integration.jpg"></image>
+          <view class="context-box">
+            <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+          <view class="remark">2小节  12,405人参与</view>
+          </view>
+        </view>
+        <view class="skill-box">
+          <image src="/assert/images/question_bank.jpg"></image>
+         <view class="context-box">
+           <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+         <view class="remark">2小节  12,405人参与</view>
+         </view>
+       </view>
+       <view class="skill-box">
+        <image src="/assert/images/word_cloud.jpg"></image>
+       <view class="context-box">
+         <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>
+       <view class="remark">2小节  12,405人参与</view>
+       </view>
+     </view>
+      </view>
+    </view>
+
+    <view class="block-card">
+      <view class="card-top">
+        <text class="text">如何使用UMU</text>
+        <view class="inner-card-top">
+          <text class="inner-card-top-text">查看全部</text>
+          <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      
+      <view class="crosswise ">
+        <view class="card-main-content">
+          <image src="/assert/images/micro_voice_lessons.jpg"></image>
+          <view class="title">如何使用UMU语音微课</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/exam.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/task.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/sign_in.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/video.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/document.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+
+      <view class="crosswise_1 ">
+        <view class="card-main-content">
+          <image src="/assert/images/questionnaire .jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+        <view class="card-main-content">
+          <image src="/assert/images/discussion.jpg"></image>
+          <view class="title">如何使用UMU考试</view>
+          <view class="remark">5小节  6,615人参与</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="footer">
+      全部加载完毕
+    </view>
   </view>
 </view>

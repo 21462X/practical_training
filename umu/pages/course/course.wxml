@@ -1,2 +1,44 @@
 <!--pages/course/course.wxml-->
-<text>pages/course/course.wxml</text>
+<view class="course-container">
+  <view class="top-course-container">
+    <view class="navbar">
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+        bindtap="navbarTap">{{item}}</text>
+    </view>
+    <view class="icon-box">
+      <image class="icon" src="/assert/images/search_big.png"></image>
+      <image class="icon" src="/assert/images/add.png"></image>
+    </view>
+  </view>
+  <!--我管理的-->
+  <view hidden="{{currentTab!==0}}">
+    <view class="my-charge">
+      <image src="/assert/images/charge_course.png"></image>
+      <view class="title">尚无已创建的课程</view>
+      <button class="creat-btn">立即创建课程</button>
+    </view>
+  </view>
+  <!--我参与的-->
+  <view hidden="{{currentTab!==1}}">
+    <view class="content-box">
+      <view class="top-content-box">
+        <view class="top-content-box-left">
+          <view class="">二级JAVA备考</view>
+          <view class="">查英华</view>
+          <view class="">77小节 40人参与</view>
+        </view>
+        <view class="top-content-box-right">
+          <image class="" src="/assert/images/no_pic.jpg"></image>
+        </view>
+      </view>
+      <view class="content-box-center">进度条</view>
+      <view class="content-box-bottom">
+        <view class="">2020-01-12 15:36 最后参与</view>
+        <button class="">去学习</button>
+        <image class="" src=""></image>
+      </view>
+    </view>
+
+
+  </view>
+</view>
