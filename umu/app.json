@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/course/course",
-    "pages/index/index",
-    
     "pages/message/message",
+    "pages/index/index",
+     "pages/course/course",
+   
     "pages/my/my"
   ],
   "window": {

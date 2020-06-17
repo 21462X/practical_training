@@ -1,2 +1,27 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="my-container">
+  <view class="container_1">
+    <view class="container_1-top-box">
+      <view class="container_1-top-box-left">
+        <image class="logo" src="/assert/images/logo.png"></image>
+        <view class="">
+          <view class="">
+            <text>杨钰婷</text>
+            <view class="">LV.8</view>
+          </view>
+          <view class="">1802773136</view>
+          <view class="">
+            <view class="">基本版</view>
+            <view class="">切换账户</view>
+            <image class="" src=""></image>
+          </view>
+        </view>
+      </view>
+
+      <image class="check_more" src="/assert/images/check_more.png"></image>
+    </view>
+  </view>
+  <view class="container_2"></view>
+  <view class="container_3"></view>
+  <view class="container_4"></view>
+</view>

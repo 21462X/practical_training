@@ -1,14 +1,17 @@
 <!--pages/index/index.wxml-->
 <view class="container">
   <view class="top-content">
-    <button>
-      <image class="index-icon" src="/assert/images/scan.png" style="margin-left: 30rpx;"></image>
+    <button style="width: 90rpx;height: 90rpx;border-radius: 45rpx;position: relative;margin-left: 20rpx;">
+      <image class="index-icon" src="/assert/images/scan.png" style=" position: absolute;left: 20rpx;" mode='widthFix'></image>
     </button>
     <view class="inner-block">
       <image class="index-icon" src="/assert/images/search.png"></image>
       <input class="index-input" placeholder="输入访问码直达" />
     </view>
-    <image class="index-icon" src="/assert/images/add.png" style="margin-right: 30rpx;"></image>
+    <button style="width: 90rpx;height: 90rpx;border-radius: 45rpx;position: relative;margin-right: 20rpx;">
+       <image class="index-icon" src="/assert/images/add.png" style=" position: absolute;right: 20rpx;" mode='widthFix'></image>
+    </button>
+   
   </view>
 
   <view class="center-content">

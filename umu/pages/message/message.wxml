@@ -1,2 +1,60 @@
 <!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<view class="message-container">
+  <view class="top-content">
+    <view class="top-content-title">
+      <text>消息</text>
+    </view>
+    <view class="top-content-center">
+      <view class="top-content-item">
+        <view class="top-content-item-left">
+          <image src="/assert/images/zan.png"></image>
+          <text>赞</text>
+        </view>
+        <view>
+          <image class="top-content-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      <view class="top-content-item">
+        <view class="top-content-item-left">
+          <image src="/assert/images/message_message.png"></image>
+          <text>回复我</text>
+        </view>
+        <view>
+          <image class="top-content-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+      <view class="top-content-item">
+        <view class="top-content-item-left">
+          <image src="/assert/images/message_system.png"></image>
+          <text>系统消息</text>
+        </view>
+        <view>
+          <image class="top-content-icon" src="/assert/images/check_more.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class="top-content-bottom">
+      <text>全部标记为已读</text>
+    </view>
+  </view>
+  <view class="bottom-content">
+    <view class="bottom-content-card">
+      <view class="bottom-content-card-top">
+        <image class="bottom-content-card-top-icon" src="/assert/images/logo.png"></image>
+        <view class="bottom-content-card-text-box">
+          <view class="text1">请查收XXXX年度报告</view>
+          <view class="text2">01-22 16:50</view>
+        </view>
+      </view>
+      <view>
+        Hi :
+      </view>
+      <button style="width: 300rpx;height: 80rpx;border-radius: 40rpx;">
+        <view class="navigator-text">查看我的报告</view>
+      </button>
+    </view>
+    <view class="top-content-bottom-bottom">
+      <text>全部加载完毕</text>
+    </view>
+  </view>
+</view>

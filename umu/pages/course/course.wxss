@@ -36,7 +36,7 @@ Page {
   left: 20rpx;
   right: 20rpx;
   height: 4rpx;
-  background: black;
+  background: rgb(242, 151, 20);
 }
 
 .icon {
@@ -52,7 +52,7 @@ Page {
   align-items: center;
 }
 
-.title {
+.charge-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,4 +62,60 @@ Page {
   margin-top: 40rpx;
   color: white;
   background-color: rgb(33, 150, 243);
+}
+
+.content-box {
+  width: 90%;
+  height: 390rpx;
+  margin: 30rpx 40rpx 30rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.top-content-box {
+  padding: 20rpx 20rpx 20rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jion-title {
+  font-weight: bold;
+}
+
+.author {
+  font-size: 30rpx;
+}
+
+.remark {
+  font-size: 30rpx;
+}
+
+.jion-image {
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.content-box-center progress {
+  width: 300rpx;
+  margin-left: 370rpx;
+}
+
+.content-box-bottom {
+  padding: 20rpx 20rpx 20rpx;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remark_1 {
+  font-size: 25rpx;
+  color: grey;
+  margin-top: 5px;
+}
+
+.jion-icon {
+  width: 40rpx;
+  height: 50rpx;
 }

@@ -2,3 +2,19 @@
 Page{
   background-color: rgb(245,245,245);
 }
+.container_1-top-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+
+.check_more {
+  width: 15rpx;
+  height: 20rpx;
+}

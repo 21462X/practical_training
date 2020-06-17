@@ -1,4 +1,110 @@
 /* pages/message/message.wxss */
-Page{
-  background-color: rgb(245,245,245);
+Page {
+  background-color: rgb(245, 245, 245);
+}
+
+.top-content-title {
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(249, 250, 249);
+  box-shadow: 2px 2px 5px rgb(233, 233, 233);
+}
+
+.top-content-title text {
+  text-align: left;
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+}
+
+.top-content-center {
+  height: 250rpx;
+}
+
+.top-content-item {
+  height: 90rpx;
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.top-content-item-left {
+  display: flex;
+  flex-direction: row;
+  padding: 27.5rpx 20rpx;
+}
+
+.top-content-item-left image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.top-content-item-left text {
+  font-size: 30rpx;
+  margin-left: 25rpx;
+}
+
+.top-content-icon {
+  width: 25rpx;
+  height: 35rpx;
+  padding: 27.5rpx 20rpx;
+}
+
+.top-content-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.top-content-bottom text {
+  font-size: 28rpx;
+  color: rgb(152, 152, 152);
+  text-align: right;
+  margin: 50rpx 20rpx;
+}
+
+.bottom-content-card {
+  padding: 20rpx 20rpx 20rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.bottom-content-card-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-content-card-top-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+
+.text1 {
+  font-size: 30rpx;
+}
+
+.text2 {
+  font-size: 25rpx;
+  color: grey;
+}
+
+.navigator-text {
+  color: rgb(40, 152, 222);
+}
+
+.top-content-bottom-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-content-bottom-bottom text {
+  margin-top: 20rpx;
+  color: rgb(117, 117, 117);
+  text-align: center;
 }
