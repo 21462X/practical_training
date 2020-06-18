@@ -2,26 +2,145 @@
 <view class="my-container">
   <view class="container_1">
     <view class="container_1-top-box">
-      <view class="container_1-top-box-left">
-        <image class="logo" src="/assert/images/logo.png"></image>
-        <view class="">
-          <view class="">
+      <view class="container_1-top-top-box">
+        <view class="logo-box">
+          <image class="logo" src="/assert/images/logo.png"></image>
+        </view>
+        <view class="container_1-top-text-box">
+          <view class="container_1-top-text-box-line-1">
             <text>杨钰婷</text>
-            <view class="">LV.8</view>
+            <view class="level">LV.8</view>
           </view>
-          <view class="">1802773136</view>
-          <view class="">
-            <view class="">基本版</view>
-            <view class="">切换账户</view>
-            <image class="" src=""></image>
+          <view class="container_1-top-text-box-line-2">
+            <text>1802773136</text>
+            <image class="check_more_black" src="/assert/images/check_more_black.png"></image>
+          </view>
+          <view class="container_1-top-text-box-line-3">
+            <view class="version">基本版</view>
+            <view class="account">切换账户</view>
+            <image src="/assert/images/switch_account.png"></image>
           </view>
         </view>
       </view>
-
-      <image class="check_more" src="/assert/images/check_more.png"></image>
+    </view>
+    <view class="container_1-top-center-box">
+      <view class="container_1-top-center-box-item">
+        <text>2</text>
+        <text class="remark">我关注的</text>
+      </view>
+      <view class="container_1-top-center-box-item">
+        <text>0</text>
+        <text class="remark">关注我的</text>
+      </view>
+      <view class="container_1-top-center-box-item">
+        <text>0</text>
+        <text class="remark">累计收入</text>
+      </view>
+      <view class="container_1-top-center-box-item">
+        <image src="/assert/images/profile_home_page.png"></image>
+        <text class="remark">个人主页</text>
+      </view>
+    </view>
+    <image class="advertisement" src="/assert/images/container_1-image.jpg"></image>
+    <view class="container_1-top-bottom-box">
+      <view class="container_1-top-bottom-box-left">
+        <image src="/assert/images/profile_bind_wechat.png"></image>
+        <text>绑定微信</text>
+      </view>
+      <view class="container_1-top-bottom-box-right">
+        <text>立即绑定</text>
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
     </view>
   </view>
-  <view class="container_2"></view>
-  <view class="container_3"></view>
-  <view class="container_4"></view>
+
+  <view class="container_2">
+    <view class="container_2-item-box">
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_achievement.png"></image>
+        <text>我的成就</text>
+      </view>
+      <view class="container_2-item-right">
+        <view>LV.8</view>
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_clazz.png"></image>
+        <text>我的班级</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_achievement.png"></image>
+        <text>我的收藏</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_question_collection.png"></image>
+        <text>考题本</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_information.png"></image>
+        <text>个人资料</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="container_3">
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/ic_profile_contact.png"></image>
+        <text>联系我们升级</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_mould.png"></image>
+        <text>模板</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="container_4">
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_security.png"></image>
+        <text>账户与安全</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <view class="container_2-item-box" >
+      <view class="container_2-item-left">
+        <image src="/assert/images/icon_profile_set.png"></image>
+        <text>设置</text>
+      </view>
+      <view class="container_2-item-right">
+        <image class="check_more" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+  </view>
 </view>
