@@ -23,7 +23,7 @@ Page({
   },
   toTesting:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/testing/testing',
     })
   },
   

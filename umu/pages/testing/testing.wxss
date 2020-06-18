@@ -1,0 +1,32 @@
+/* pages/testing/testing.wxss */
+Page{
+  background-color: rgb(245, 245, 245);
+}
+.navbar {
+  flex: none;
+  display: flex;
+  background: #fff;
+  box-shadow: 2px 2px 5px rgb(245, 245, 245);
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.navbar .item.active {
+  color: rgb(249, 167, 34);
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 70rpx;
+  right: 90rpx;
+  height: 6rpx;
+  background: rgb(255, 167, 5);
+}

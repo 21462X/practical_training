@@ -4,8 +4,8 @@
     "pages/course/course",
     "pages/message/message",
     "pages/my/my",
-    "pages/my_class/my_class"
-    
+    "pages/my_class/my_class",
+    "pages/testing/testing"
   ],
   "window": {
     "backgroundTextStyle": "light",
