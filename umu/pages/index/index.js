@@ -16,6 +16,52 @@ Page({
     }
   ]
   },
+  toClass:function(e){
+    wx.navigateTo({
+      url: '/pages/my_class/my_class',
+    })
+  },
+  toTesting:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toSpeech:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toStudyGroup:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toRegisteredCourse:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toStudyHistory:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toPersonalHomepage:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
+  
+  toMyPrivilege:function(e){
+    wx.navigateTo({
+      url: '/pages',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

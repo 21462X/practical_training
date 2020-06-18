@@ -1,0 +1,49 @@
+<!--pages/my_class/my_class.wxml-->
+<view class="class-container">
+  <view class="navbar">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+      bindtap="navbarTap">{{item}}</text>
+  </view>
+  <!-- 我管理的 -->
+  <view hidden="{{currentTab!==0}}">
+    <view class="tab_1-box">
+      <image src="/assert/images/my_charge_empty.jpg"></image>
+      <view class="tab_1-inner-box">
+        <view>尚未创建班级</view>
+      <view style="font-size: 25rpx; color: rgb(139,139,139);">用班级管理学员信息，分配学习任务</view>
+      </view>
+       <button style="color: white;background-color: rgb(33,151,241);font-weight: normal;font-size: 27rpx;margin-top: 40rpx;">创建班级</button>
+    </view>
+  </view>
+  <!-- 我加入的 -->
+  <view hidden="{{currentTab!==1}}">
+    <view class="tab_2-box">
+      <image src="/assert/images/head_photo.jpg" style="width: 233rpx;height: 150rpx;"></image>
+      <view class="tab_2-inner-box">
+        <text style="font-size: 35rpx;">移动18级</text>
+        <text class="remark">2020-01-02 加入</text>
+      </view>
+    </view>
+    <view class="tab_2-box">
+      <image src="/assert/images/head_photo.jpg" style="width: 233rpx;height: 150rpx;"></image>
+      <view class="tab_2-inner-box">
+        <text style="font-size: 35rpx;">移动18级</text>
+        <text class="remark">2020-01-02 加入</text>
+      </view>
+    </view>
+    <view class="tab_2-box">
+      <image src="/assert/images/head_photo.jpg" style="width: 233rpx;height: 150rpx;"></image>
+      <view class="tab_2-inner-box">
+        <text style="font-size: 35rpx;">移动18级</text>
+        <text class="remark">2020-01-02 加入</text>
+      </view>
+    </view>
+    <view class="tab_2-box">
+      <image src="/assert/images/head_photo.jpg" style="width: 233rpx;height: 150rpx;"></image>
+      <view class="tab_2-inner-box">
+        <text style="font-size: 35rpx;">移动18级</text>
+        <text class="remark">2020-01-02 加入</text>
+      </view>
+    </view>
+  </view>
+</view>

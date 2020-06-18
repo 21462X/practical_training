@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/my/my",
     "pages/index/index",
     "pages/course/course",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/my/my",
+    "pages/my_class/my_class"
     
   ],
   "window": {
@@ -17,7 +18,8 @@
     "selectedColor": "#FFAB00",
     "backgroundColor": "#FFFFFF",
     "borderStyle": "white",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "/assert/images/home.png",
