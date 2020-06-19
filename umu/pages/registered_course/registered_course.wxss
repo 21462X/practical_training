@@ -1,0 +1,18 @@
+/* pages/registered_course/registered_course.wxss */
+
+.registered_course-box {
+  display: flex;
+  flex-direction: row;
+}
+.registered_course-box image{
+  width: 400rpx;
+  height: 150rpx;
+}
+.registered_course-inner-inner-box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50rpx;
+}
+.registered_course-inner-inner-box-2 {
+  float: right;
+}

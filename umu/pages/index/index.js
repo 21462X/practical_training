@@ -47,7 +47,7 @@ Page({
   
   toStudyHistory:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/registered_course/registered_course',
     })
   },
   

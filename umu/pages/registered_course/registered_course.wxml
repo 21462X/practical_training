@@ -1,0 +1,16 @@
+<!--pages/registered_course/registered_course.wxml-->
+<view class="registered_course-container">
+  <view class="registered_course-box">
+    <image src="/assert/images/JAVA.jpg"></image>
+    <view class="registered_course-inner-box">
+      <view class="registered_course-inner-inner-box-2">
+        <text>面向对象程序设计（JAVA）</text>
+        <text style="font-size: 25rpx;color: grey;">2018-11-16 10:14 报名</text>
+      </view>
+      <view class="registered_course-inner-inner-box-2">
+        <button style="width: 200rpx;font-size: 25rpx;font-weight: normal;color: rgb(40, 152, 222);background-color: rgb(255,255,255);">立即学习</button>
+      </view>
+    </view>
+
+  </view>
+</view>
