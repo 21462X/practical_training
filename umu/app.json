@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/speech/speech",
     "pages/index/index",
     "pages/course/course",
     "pages/message/message",

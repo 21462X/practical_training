@@ -1,0 +1,13 @@
+<!--pages/speech/speech.wxml-->
+<view class="speech-container">
+  <view class="tab_1-box">
+    <image src="/assert/images/my_charge_empty.jpg"></image>
+    <view class="tab_1-inner-box">
+      <view>尚未提交发言</view>
+      <view style="width: 414rpx; font-size: 25rpx; color: rgb(139,139,139);display: flex; flex-wrap: wrap;flex-direction: row;align-items: center;">
+        <text>你可以在学习小节的过程中参与发言</text>
+        <text>参与发言也能提高你在课程中的排名</text>
+      </view>
+    </view>
+  </view>
+</view>

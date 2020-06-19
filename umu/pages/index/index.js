@@ -29,7 +29,7 @@ Page({
   
   toSpeech:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/speech/speech',
     })
   },
   
