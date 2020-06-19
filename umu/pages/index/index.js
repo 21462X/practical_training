@@ -53,7 +53,7 @@ Page({
   
   toPersonalHomepage:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/personal_homePage/personal_homePage',
     })
   },
   

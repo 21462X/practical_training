@@ -1,0 +1,156 @@
+/* pages/personal_homePage/personal_homePage.wxss */
+Page {
+  background-color: rgb(245, 245, 245);
+}
+
+.personal_homePage-container-top-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgb(224, 224, 224);
+  background-color: rgb(255, 255, 255);
+}
+
+.personal_homePage-container-top-inner-box-1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal_homePage-container-top-inner-box-1 image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+
+.level {
+  width: 80rpx;
+  font-size: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(62, 173, 40);
+  float: inline-start;
+}
+
+.personal_homePage-container-top-inner-box-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  border-bottom: solid rgb(245, 245, 245);
+  padding: 40rpx;
+}
+
+.personal_homePage-container-top-inner-box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 35rpx;
+}
+
+.personal_homePage-container-top-inner-box-3-item {
+  width: 150rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.remark {
+  font-size: 25rpx;
+  color: rgb(110, 110, 110);
+  padding-top: 10rpx;
+}
+
+.personal_homePage-container-bottom-box {
+  background-color: rgb(255, 255, 255);
+  margin-top: 40rpx;
+}
+
+.personal_homePage-container-bottom-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal_homePage-container-bottom-box-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.personal_homePage-container-bottom-box-top {
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: solid rgb(245, 245, 245);
+}
+
+.personal_homePage-container-bottom-box-top text {
+  text-align: left;
+  padding-left: 60rpx;
+}
+
+.navbar {
+  flex: none;
+  display: flex;
+  width: 50%;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  color: grey;
+}
+
+.navbar .item.active {
+  color: #14A5E4;
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 40rpx;
+  right: 40rpx;
+  height: 4rpx;
+  background: #14A5E4;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+.icon {
+  width: 20rpx;
+  height: 30rpx;
+  margin-top: 5rpx;
+  padding: 20rpx 20rpx 20rpx;
+}
+
+.tab-content {
+  height: 440rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.tab-content-item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300rpx;
+}
+
+.tab-content-item-box image {
+  width: 207rpx;
+  height: 151rpx;
+}

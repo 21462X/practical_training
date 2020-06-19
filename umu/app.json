@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/study_history/study_history",
+    "pages/personal_homePage/personal_homePage",
     "pages/index/index",
     "pages/course/course",
     "pages/message/message",
@@ -9,7 +9,8 @@
     "pages/testing/testing",
     "pages/speech/speech",
     "pages/study_group/study_group",
-    "pages/registered_course/registered_course"
+    "pages/registered_course/registered_course",
+    "pages/study_history/study_history"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,71 @@
+<!--pages/personal_homePage/personal_homePage.wxml-->
+<view class="personal_homePage-container">
+  <view class="personal_homePage-container-top-box">
+    <view class="personal_homePage-container-top-inner-box-1">
+       <image src="/assert/images/logo.png"></image>
+    <view class="level">LV.8</view>
+    <view style="font-size: 40rpx;">杨钰婷</view>
+    </view>
+    <view class="personal_homePage-container-top-inner-box-2">
+      <text style="color: rgb(62, 173, 40);">LV.8</text>
+      <view style="width: 60%;">
+        <progress percent="42" stroke-width="3" activeColor="rgb(63,171,52)" backgroundColor="rgb(184,233,178)"/>
+      </view>
+      <text style="color: rgb(62, 173, 40);">LV.9</text>
+    </view>
+    <view class="personal_homePage-container-top-inner-box-3">
+      <view class="personal_homePage-container-top-inner-box-3-item">
+        <text>0</text>
+        <text class="remark">影响的学员</text>
+      </view>
+      <view class="personal_homePage-container-top-inner-box-3-item">
+        <text>0</text>
+        <text class="remark">关注者</text>
+      </view>
+      <view class="personal_homePage-container-top-inner-box-3-item">
+        <text>198</text>
+        <text class="remark">完成小节</text>
+      </view>
+    </view>
+  </view>
+  
+  <view class="personal_homePage-container-bottom-box">
+    <view class="personal_homePage-container-bottom-box-top">
+      <text>课程</text>
+    </view>
+    <view class="personal_homePage-container-bottom-box-bottom">
+      <view class="navbar">
+        <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+          bindtap="navbarTap">{{item}}</text>
+      </view>
+      <view class="icon-box">
+        <text style="color: grey;padding-top: 18rpx;">已隐藏的课程</text>
+        <image class="icon" src="/assert/images/check_more.png"></image>
+      </view>
+    </view>
+    <!-- 最新 -->
+    <view hidden="{{currentTab!==0}}">
+      <view class="tab-content">
+        <view class="tab-content-item-box">
+          <image src="/assert/images/ic_group_empty.png"></image>
+          <text>暂无课程</text>
+        </view>
+      </view>
+    </view>
+    <!-- 最热 -->
+    <view hidden="{{currentTab!==1}}">
+      <view class="tab-content">
+        <view class="tab-content">
+          <view class="tab-content-item-box">
+            <image src="/assert/images/ic_group_empty.png"></image>
+            <text>暂无课程</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+  
+
+</view>
