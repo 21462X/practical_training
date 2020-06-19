@@ -11,6 +11,5 @@
         <button style="width: 200rpx;font-size: 25rpx;font-weight: normal;color: rgb(40, 152, 222);background-color: rgb(255,255,255);">立即学习</button>
       </view>
     </view>
-
   </view>
 </view>

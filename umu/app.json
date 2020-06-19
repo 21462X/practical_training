@@ -1,15 +1,15 @@
 {
   "pages": [
-    "pages/registered_course/registered_course",
-    "pages/speech/speech",
+    "pages/study_history/study_history",
     "pages/index/index",
     "pages/course/course",
     "pages/message/message",
     "pages/my/my",
     "pages/my_class/my_class",
     "pages/testing/testing",
-    "pages/study_group/study_group"
-
+    "pages/speech/speech",
+    "pages/study_group/study_group",
+    "pages/registered_course/registered_course"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -41,13 +41,13 @@ Page({
   
   toRegisteredCourse:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/registered_course/registered_course',
     })
   },
   
   toStudyHistory:function(e){
     wx.navigateTo({
-      url: '/pages/registered_course/registered_course',
+      url: '/pages/study_history/study_history',
     })
   },
   

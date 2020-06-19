@@ -1,8 +1,8 @@
-/* pages/registered_course/registered_course.wxss */
-
+/* pages/study_history/study_history.wxss */
 .registered_course-box {
   display: flex;
   flex-direction: row;
+  border-top: solid rgb(245,245,245);
   padding: 20rpx 20rpx 20rpx;
 }
 .registered_course-box image{
