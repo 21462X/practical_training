@@ -1,0 +1,16 @@
+<!--pages/study_group/study_group.wxml-->
+<view>
+  <view class="tab_1-box">
+    <image src="/assert/images/bg_empty_chat_list.png"></image>
+    <view class="tab_1-inner-box">
+      <view>尚未加入学习小组</view>
+      <view style="width: 500rpx; font-size: 25rpx; color: rgb(139,139,139);text-align: center;">
+        <text>你可以在课程或学习项目中加入学习群，</text>
+        <view style="width: 500rpx; font-size: 25rpx; color: rgb(139,139,139);text-align: center;">
+           <text>交流学习经验</text>
+        </view>
+       
+      </view>
+    </view>
+  </view>
+</view>

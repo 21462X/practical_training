@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/study_group/study_group",
     "pages/speech/speech",
     "pages/index/index",
     "pages/course/course",

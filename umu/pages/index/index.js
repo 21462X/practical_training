@@ -35,7 +35,7 @@ Page({
   
   toStudyGroup:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/study_group/study_group',
     })
   },
   
