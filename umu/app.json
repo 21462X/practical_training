@@ -14,7 +14,8 @@
     "pages/my_privilege/my_privilege",
     "pages/index_item_newPage/index_item_newPage",
     "pages/index_top_itemNewPage/index_top_itemNewPage",
-    "pages/index_bottom_itemNewPage/index_bottom_itemNewPage"
+    "pages/index_bottom_itemNewPage/index_bottom_itemNewPage",
+    "pages/attention_page/attention_page"
   ],
   "window": {
     "backgroundTextStyle": "light",

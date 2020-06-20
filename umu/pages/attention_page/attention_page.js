@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/attention_page/attention_page.js
 Page({
 
   /**
@@ -7,29 +7,7 @@ Page({
   data: {
 
   },
-  
-  toPersonalHomepage:function(e){
-    wx.navigateTo({
-      url: '/pages/personal_homePage/personal_homePage',
-    })
-  },
-  
-  toattentionPage:function(e){
-    wx.navigateTo({
-      url: '/pages/attention_page/attention_page',
-    })
-  },
 
-  toClass:function(e){
-    wx.navigateTo({
-      url: '/pages/my_class/my_class',
-    })
-  },
-  toMyPrivilege:function(e){
-    wx.navigateTo({
-      url: '/pages/my_privilege/my_privilege',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,34 @@
+<!--pages/attention_page/attention_page.wxml-->
+<view>
+  <view style="display: flex;flex-direction: row;padding: 10rpx 20rpx;border-bottom: solid rgb(245,245,245);border-top: solid rgb(245,245,245);">
+    <view>
+      <image src="/assert/images/logo.png" style="width: 80rpx;height: 80rpx;border-radius: 40rpx;"></image>
+      <view style="width: 80rpx;height: 35rpx;border-radius: 17.5rpx;color: white;background-color: purple;display: flex;flex-direction: row;justify-content: center; align-items: center;margin-top: -10rpx;">
+        <text style="font-size: 25rpx;">LV.20</text>
+      </view>
+    </view>
+    <view style="display: flex;flex-direction: row;margin-left: 10rpx;">
+      <text>杨某某</text>
+      <view>
+         <image src="/assert/images/ic_medal_small_100_1.png" style="width: 40rpx;height: 40rpx;margin-left: 10rpx;"></image>
+      </view>
+    </view>
+  </view>
+  <view style="display: flex;flex-direction: row;padding: 10rpx 20rpx;border-bottom: solid rgb(245,245,245);">
+    <view>
+      <image src="/assert/images/logo.png" style="width: 80rpx;height: 80rpx;border-radius: 40rpx;"></image>
+      <view style="width: 80rpx;height: 35rpx;border-radius: 17.5rpx;color: white;background-color: purple;display: flex;flex-direction: row;justify-content: center; align-items: center;margin-top: -10rpx;">
+        <text style="font-size: 25rpx;">LV.20</text>
+      </view>
+    </view>
+    <view style="display: flex;flex-direction: row;margin-left: 10rpx;">
+      <text>杨某某</text>
+      <view>
+         <image src="/assert/images/ic_medal_small_100_1.png" style="width: 40rpx;height: 40rpx;margin-left: 10rpx;"></image>
+      </view>
+    </view>
+  </view>
+  <view style="display: flex;flex-direction: row;justify-content: center;align-items: center;">
+    <text style="font-size: 25rpx;color: grey; padding: 20rpx;">全部加载完毕</text>
+  </view>
+</view>
