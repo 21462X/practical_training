@@ -1,0 +1,69 @@
+<!-- pages/my_privilege/my_privilege.wxml -->
+<view class="my_privilege-container">
+  <view class="my_privilege-top-container">
+    <view class="my_privilege-top-container-top">
+      <view class="title-box">
+        <view class="title-box-top-box">
+        <text style="font-size: 75rpx;color: white;">348</text>
+        <text class="data" style="margin-left: 10rpx;">UP值</text>
+      </view>
+      <text class="data">还需要13UP值升级</text>
+      </view>
+      <view class="personal_homePage-container-top-inner-box-2">
+        <view class="text">
+           <text style="color: rgb(62, 173, 40);font-size: 25rpx;">LV.8</text>
+        </view>
+        <view style="width: 60%;">
+          <progress percent="42" stroke-width="4" activeColor="rgb(255,255,255)" backgroundColor="rgb(184,233,178)"/>
+        </view>
+        <view class="text">
+          <text style="color: rgb(62, 173, 40); font-size: 25rpx;">LV.9</text>
+        </view>
+      </view>
+      <view class="check_detail">
+        <text>查看详情 ></text>
+      </view>
+    </view>
+    <view class="my_privilege-top-container-bottom">
+      <view class="block-card">
+        <view class="card-top">
+          <text>我的勋章</text>
+          <view class="inner-card-top">
+            <text class="inner-card-top-text">查看全部</text>
+            <image class="card-top-icon" src="/assert/images/check_more.png"></image>
+          </view>
+        </view>
+        <view class="card-content-item">
+          <view class="card-content-item-line">
+            <image src="/assert/images/ic_medal_big_cn_302_2.png"></image>
+            <text>念念不忘</text>
+          </view>
+          <view class="card-content-item-line">
+           <image src="/assert/images/ic_medal_big_cn_300_2.png"></image>
+           <text>神助攻</text>
+          </view>
+        </view>
+        <view class="card-content-item">
+          <view class="card-content-item-line">
+            <image src="/assert/images/ic_medal_big_cn_301_2.png"></image>
+            <text>言之有物</text>
+          </view>
+          <view class="card-content-item-line">
+           <image src="/assert/images/ic_medal_big_cn_303_2.png"></image>
+           <text>人见人爱</text>
+          </view>
+        </view>
+        </view>
+    </view>
+  </view>
+
+  <view class="my_privilege-bottom-container">
+    <view>
+      <text>等级特权</text>
+    </view>
+    <view>
+        <image src="/assert/images/privilege.jpg" style="width: 700rpx; height: 1600rpx;"></image>
+       
+    </view>
+  </view>
+</view>

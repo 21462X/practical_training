@@ -1,0 +1,102 @@
+/* pages/my_privilege/my_privilege.wxss */
+Page{
+  background-color: rgb(245,245,245);
+}
+
+.my_privilege-top-container {
+  padding: 40rpx 50rpx;
+  background-color: rgb(255,255,255);
+  box-shadow: 2px 2px 5px rgb(224,224,224);
+}
+
+.my_privilege-top-container-top {
+  width: 600rpx;
+  height: 330rpx;
+  background-color: rgb(62, 173, 40);
+  padding: 40rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data {
+  font-size: 25rpx;
+  color: white;
+}
+
+.personal_homePage-container-top-inner-box-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  padding: 40rpx 20rpx;
+}
+
+.text {
+  width: 80rpx;
+  background-color: white;
+}
+
+.text text {
+  font-size: 25rpx;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.check_detail {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+.inner-card-top-text {
+  font-size: 25rpx;
+  color: grey;
+}
+
+.card-top-icon {
+  width: 15rpx;
+  height: 15rpx;
+  margin-left: 10rpx;
+}
+.card-content-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.card-content-item-line {
+  width: 300rpx;
+  height: 340rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30rpx;
+  box-shadow: 2px 4px 4px  rgb(224,224,224);
+}
+
+.card-content-item image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.my_privilege-bottom-container {
+  height: 1600rpx;
+  margin-top: 20rpx;
+  padding: 20rpx 40rpx ;
+  background-color: rgb(255,255,255);
+  box-shadow: 2px 2px 5px rgb(224,224,224);
+}

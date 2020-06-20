@@ -59,7 +59,7 @@ Page({
   
   toMyPrivilege:function(e){
     wx.navigateTo({
-      url: '/pages',
+      url: '/pages/my_privilege/my_privilege',
     })
   },
 
