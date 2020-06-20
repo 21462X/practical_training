@@ -11,7 +11,9 @@
     "pages/registered_course/registered_course",
     "pages/study_history/study_history",
     "pages/personal_homePage/personal_homePage",
-    "pages/my_privilege/my_privilege"
+    "pages/my_privilege/my_privilege",
+    "pages/index_item_newPage/index_item_newPage",
+    "pages/index_top_itemNewPage/index_top_itemNewPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

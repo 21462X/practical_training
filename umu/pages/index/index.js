@@ -62,6 +62,16 @@ Page({
       url: '/pages/my_privilege/my_privilege',
     })
   },
+  totopItemNewPage:function(e){
+    wx.navigateTo({
+      url: '/pages/index_top_itemNewPage/index_top_itemNewPage',
+    })
+  },
+  toitemNewPage:function(e){
+    wx.navigateTo({
+      url: '/pages/index_item_newPage/index_item_newPage',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

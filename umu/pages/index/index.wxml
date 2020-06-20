@@ -79,7 +79,7 @@
     <view class="card">
       <text class="inner-card-bold-size">学习任务（1）</text>
       <view>
-        <view class="inner-card">
+        <view class="inner-card" bindtap="totopItemNewPage">
           <view class="inner-card-small-1">课程</view>
           <text class="inner-card-bold-size">二级java备考</text>
           <view class="inner-card-small-2">
@@ -101,7 +101,7 @@
         </view>
       </view>
       
-      <view class="crosswise ">
+      <view class="crosswise " bindtap="toitemNewPage">
         <view class="card-main-content">
           <image src="/assert/images/micro_voice_lessons.jpg"></image>
           <view class="title">如何使用UMU语音微课</view>

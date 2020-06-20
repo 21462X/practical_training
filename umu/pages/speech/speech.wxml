@@ -1,7 +1,7 @@
 <!--pages/speech/speech.wxml-->
 <view class="speech-container">
   <view class="tab_1-box">
-    <image src="/assert/images/my_charge_empty.jpg"></image>
+    <image src="/assert/images/ic_group_empty.png"></image>
     <view class="tab_1-inner-box">
       <view>尚未提交发言</view>
       <view style="width: 414rpx; font-size: 25rpx; color: rgb(139,139,139);display: flex; flex-wrap: wrap;flex-direction: row;align-items: center;">

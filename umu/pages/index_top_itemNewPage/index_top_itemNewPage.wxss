@@ -1,0 +1,42 @@
+/* pages/index_top_itemNewPage/index_top_itemNewPage.wxss */
+
+.navbar {
+  flex: none;
+  display: flex;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  color: grey;
+}
+
+.navbar .item.active {
+  color: black;
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 90rpx;
+  right: 90rpx;
+  height: 4rpx;
+  background: rgb(242, 151, 20);
+}
+
+.tab_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 90%;
+  height: 250rpx;
+  margin: 5% 2%;
+  padding: 20rpx;
+  background-color: rgb(248, 248, 248);
+}
