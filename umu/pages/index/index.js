@@ -72,6 +72,11 @@ Page({
       url: '/pages/index_item_newPage/index_item_newPage',
     })
   },
+  tobottomItemNewPage:function(e){
+    wx.navigateTo({
+      url: '/pages/index_bottom_itemNewPage/index_bottom_itemNewPage',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

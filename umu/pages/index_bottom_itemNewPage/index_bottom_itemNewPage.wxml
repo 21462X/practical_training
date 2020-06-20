@@ -1,0 +1,4 @@
+<!--pages/index_bottom_itemNewPage/index_bottom_itemNewPage.wxml-->
+<view class="index_bottom_itemNewPage-container">
+  <image src="/assert/images/index_bottom_newPage.jpg"></image>
+</view>

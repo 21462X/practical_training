@@ -1,0 +1,6 @@
+/* pages/index_bottom_itemNewPage/index_bottom_itemNewPage.wxss */
+
+.index_bottom_itemNewPage-container image {
+  width: 750rpx;
+  height: 2900rpx;
+}

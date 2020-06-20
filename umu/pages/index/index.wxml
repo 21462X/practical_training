@@ -156,14 +156,14 @@
    
     <view class="block-card">
       <view class="card-top">
-        <text class="text">如何使用UMU</text>
+        <text class="text">UMU使用小技巧</text>
         <view class="inner-card-top">
           <text class="inner-card-top-text">查看全部</text>
           <image class="card-top-icon" src="/assert/images/check_more.png"></image>
         </view>
       </view>
       <view class="card-main-content_1">
-        <view class="skill-box">
+        <view class="skill-box" bindtap="tobottomItemNewPage">
            <image src="/assert/images/integration.jpg"></image>
           <view class="context-box">
             <view class="title">【官方攻略】玩转UMU积分——UMU快速升级官方攻略</view>

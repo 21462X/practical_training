@@ -13,7 +13,8 @@
     "pages/personal_homePage/personal_homePage",
     "pages/my_privilege/my_privilege",
     "pages/index_item_newPage/index_item_newPage",
-    "pages/index_top_itemNewPage/index_top_itemNewPage"
+    "pages/index_top_itemNewPage/index_top_itemNewPage",
+    "pages/index_bottom_itemNewPage/index_bottom_itemNewPage"
   ],
   "window": {
     "backgroundTextStyle": "light",
