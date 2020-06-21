@@ -30,6 +30,28 @@ Page({
       url: '/pages/my_privilege/my_privilege',
     })
   },
+  
+  tobind:function(e){
+    wx.navigateTo({
+      url: '/pages/bind/bind',
+    })
+  },
+  
+  tocollect:function(e){
+    wx.navigateTo({
+      url: '/pages/collect/collect',
+    })
+  },
+  toquestionBook:function(e){
+    wx.navigateTo({
+      url: '/pages/question_book/question_book',
+    })
+  },
+  topersonal:function(e){
+    wx.navigateTo({
+      url: '/pages/personal/personal',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

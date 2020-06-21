@@ -1,0 +1,22 @@
+<!--pages/question_book/question_book.wxml-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+</view>
+<!--易错题目-->
+<view hidden="{{currentTab!==0}}" class="">
+  <view class="tab">
+    <text style="font-size: 90rpx;font-weight: bold;color: rgb(253,189,43);">0</text>
+    <text style="margin-top: 20rpx;">题目数</text>
+    <text style="width: 80%;color: grey;margin-top: 40rpx;">您在参与考试小节后，答错的题目将展示在这里。您也可以在查看考试的正确答案时，手动添加需要再次练习的题目。</text>
+  </view>
+</view>
+
+<!--已收藏题目-->
+<view hidden="{{currentTab!==1}}">
+<view class="tab">
+  <text style="font-size: 90rpx;font-weight: bold;color: rgb(253,189,43);">0</text>
+  <text style="margin-top: 20rpx;">题目数</text>
+  <text style="width: 80%;color: grey;margin-top: 40rpx;">您在答对考题本中的易错题目后，会将题目移入此列表中。</text>
+</view>
+</view>

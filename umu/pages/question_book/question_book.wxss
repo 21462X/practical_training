@@ -1,0 +1,44 @@
+/* pages/question_book/question_book.wxss */
+Page {
+  background-color: rgb(245, 245, 245);
+}
+
+.navbar {
+  flex: none;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  color: black;
+}
+
+.navbar .item.active {
+  color: rgb(41, 147, 227);
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 80rpx;
+  right: 80rpx;
+  height: 4rpx;
+  background: rgb(41, 147, 227);
+}
+
+.tab {
+  height: 500rpx;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rpx;
+}

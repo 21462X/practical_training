@@ -1,0 +1,4 @@
+<!--pages/collect/collect.wxml-->
+<view class="collect-container">
+  <image src="/assert/images/collect.jpg"></image>
+</view>

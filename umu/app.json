@@ -15,7 +15,11 @@
     "pages/index_item_newPage/index_item_newPage",
     "pages/index_top_itemNewPage/index_top_itemNewPage",
     "pages/index_bottom_itemNewPage/index_bottom_itemNewPage",
-    "pages/attention_page/attention_page"
+    "pages/attention_page/attention_page",
+    "pages/bind/bind",
+    "pages/collect/collect",
+    "pages/question_book/question_book",
+    "pages/personal/personal"
   ],
   "window": {
     "backgroundTextStyle": "light",

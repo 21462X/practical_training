@@ -1,0 +1,4 @@
+<!--pages/bind/bind.wxml-->
+<view class="bind-container">
+  <image src="/assert/images/bind.jpg"></image>
+</view>

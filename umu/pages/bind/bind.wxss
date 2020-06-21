@@ -1,0 +1,6 @@
+/* pages/bind/bind.wxss */
+
+.bind-container image {
+  width: 750rpx;
+  height: 1440rpx;
+}
