@@ -2,5 +2,5 @@
 
 .index_bottom_itemNewPage-container image {
   width: 750rpx;
-  height: 2900rpx;
+  height: 2700rpx;
 }

@@ -1,5 +1,5 @@
 /* pages/index_item_newPage/index_item_newPage.wxss */
 .index_item_newPage-container image {
   width: 750rpx;
-  height: 3400rpx;
+  height: 3200rpx;
 }
