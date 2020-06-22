@@ -52,6 +52,21 @@ Page({
       url: '/pages/personal/personal',
     })
   },
+  tomodel:function(e){
+    wx.navigateTo({
+      url: '/pages/model/model',
+    })
+  },
+  tosecurity:function(e){
+    wx.navigateTo({
+      url: '/pages/security/security',
+    })
+  },
+  tosetting:function(e){
+    wx.navigateTo({
+      url: '/pages/setting/setting',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

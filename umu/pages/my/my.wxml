@@ -113,7 +113,7 @@
         <image class="check_more" src="/assert/images/check_more.png"></image>
       </view>
     </view>
-    <view class="container_2-item-box" bindtap="">
+    <view class="container_2-item-box" bindtap="tomodel">
       <view class="container_2-item-left">
         <image src="/assert/images/icon_profile_mould.png"></image>
         <text>模板</text>
@@ -124,7 +124,7 @@
     </view>
   </view>
   <view class="container_4">
-    <view class="container_2-item-box" bindtap="">
+    <view class="container_2-item-box" bindtap="tosecurity">
       <view class="container_2-item-left">
         <image src="/assert/images/icon_profile_security.png"></image>
         <text>账户与安全</text>
@@ -133,7 +133,7 @@
         <image class="check_more" src="/assert/images/check_more.png"></image>
       </view>
     </view>
-    <view class="container_2-item-box" bindtap="">
+    <view class="container_2-item-box" bindtap="tosetting">
       <view class="container_2-item-left">
         <image src="/assert/images/icon_profile_set.png"></image>
         <text>设置</text>

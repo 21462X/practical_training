@@ -1,0 +1,15 @@
+<!--pages/model/model.wxml-->
+<view>
+  <view class="navbar">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+    <!--我的模板-->
+    <view hidden="{{currentTab!==0}}">
+    <image src="/assert/images/tab_1.jpg"></image>
+    </view>
+    <!--UMU模板-->
+    <view hidden="{{currentTab!==1}}">
+    <image src="/assert/images/tab_2.jpg"></image>
+    </view>
+   
+</view>

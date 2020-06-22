@@ -1,0 +1,4 @@
+<!--pages/security/security.wxml-->
+<view class="security-container">
+  <image src="/assert/images/security.jpg"></image>
+</view>

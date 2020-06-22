@@ -1,0 +1,5 @@
+/* pages/setting/setting.wxss */
+.setting-container image {
+  width: 750rpx;
+  height: 1440rpx;
+}

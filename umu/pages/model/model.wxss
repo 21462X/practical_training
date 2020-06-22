@@ -1,0 +1,33 @@
+/* pages/model/model.wxss */
+
+.navbar {
+  flex: none;
+  display: flex;
+}
+
+.navbar .item {
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+  color: grey;
+}
+
+.navbar .item.active {
+  color:rgb(255, 167, 5);
+}
+
+.navbar .item.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 80rpx;
+  right: 80rpx;
+  height: 4rpx;
+  background: rgb(255, 167, 5);
+}
+ image {
+  width: 750rpx;
+  height: 1440rpx;
+ }

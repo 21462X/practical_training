@@ -1,1 +1,4 @@
 <!--pages/personal/personal.wxml-->
+<view class="personal-container">
+  <image src="/assert/images/personal.jpg"></image>
+</view>
